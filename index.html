@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="content">
     <nav id="navContainer">
             <h1>Keycode Generator</h1>
 
@@ -21,8 +21,8 @@
 </div>
 
 <div id="pageLogo">
-    <!-- <img src="https://cdn3.f-cdn.com/contestentries/1373079/15782079/5b4e4adf3ba38_thumb900.jpg">
-    <img src="https://cdn.pixabay.com/photo/2017/10/06/18/26/key-2824086_960_720.png"> -->
+    <img id="codeIm" src="codeLogo.jpg">
+    <img id="keyImg" src="keyImage.png">
 <!-- //resize// -->
 </div>
 
@@ -31,33 +31,33 @@
     <input id="myInput" type="text" >
     <!-- //Must reset eventlogs upon click.// -->
     <button onclick="removeFromList" id="buttonReset">Reset</button>
-    <p id="keycode">Keycode</p>
+    
 </div>
 
     <div id="codeContainer">
         <div id="key" class="lis">
-            <h2>event.key</h2>
+            <h2>key</h2>
             <ul id="keyList">
                 <!-- <li></li> -->
             </ul>
         </div>
 
         <div id="code">
-            <h2>event.code</h2>
+            <h2>code</h2>
             <ul id="codeList">
                 <!-- <li></li> -->
             </ul>
         </div>
 
         <div id="which">
-            <h2>event.which</h2>
+            <h2>which</h2>
             <ul id="whichList">
                 <!-- <li></li> -->
             </ul>
         </div>
 
     </div>
-
+<footer id="foot"><p>By Maximilian Riley</p></footer>
     <script src="index.js"></script>
 </body>
 </html>
